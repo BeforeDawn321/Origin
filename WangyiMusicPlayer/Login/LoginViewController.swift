@@ -50,7 +50,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     let loginButton: UIButton = {
         let button = UIButton()
         button.layer.cornerRadius = 10
-        button.setTitle("登陆", for: .normal)
+        button.setTitle("登录", for: .normal)
         button.backgroundColor = .red
         return button
     }()
@@ -98,11 +98,18 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         view.backgroundColor = .white
 
         setupView()
-        
-        LoginViewController.password = getPasswordString()
-        LoginViewController.accountNumString = getAccountString()
-        print(LoginViewController.accountNumString, LoginViewController.password)
 
+        loginButton.addTarget(self, action: #selector(login), for:.touchUpInside)
+    }
+
+    @objc func login() {
+        Accounts.phone = getAccountString()
+        Accounts.password = getPasswordString()
+        //print(Accounts.phone, Accounts.password)
+        
+        Service.shareInstance.fetchUid(phone: Accounts.phone, password: Accounts.password)
+        
+        self.dismiss(animated: true, completion: nil)
     }
     
     func getAccountString() -> String {
@@ -112,8 +119,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     func getPasswordString() -> String {
         textFieldDidEndEditing(passwordTextField)
-        return accountTextField.text!
-        
+        return passwordTextField.text!
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {

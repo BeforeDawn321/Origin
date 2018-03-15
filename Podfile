@@ -25,4 +25,6 @@ target 'WangyiMusicPlayer' do
 
   pod 'SnapKit', '~> 4.0.0'
 
+  pod 'PandoraPlayer'
+
 end

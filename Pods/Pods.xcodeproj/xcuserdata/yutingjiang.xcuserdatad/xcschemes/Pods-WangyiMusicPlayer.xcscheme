@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE053FF96EEB9686AD0C6089B265A424"
+               BlueprintIdentifier = "828E3FD3329844B76017250B58CBDF31"
                BuildableName = "Pods_WangyiMusicPlayer.framework"
                BlueprintName = "Pods-WangyiMusicPlayer"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE053FF96EEB9686AD0C6089B265A424"
+            BlueprintIdentifier = "828E3FD3329844B76017250B58CBDF31"
             BuildableName = "Pods_WangyiMusicPlayer.framework"
             BlueprintName = "Pods-WangyiMusicPlayer"
             ReferencedContainer = "container:Pods.xcodeproj">

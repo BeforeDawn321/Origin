@@ -12,6 +12,7 @@ import TRON
 import SwiftyJSON
 
 class ListViewController: DatasourceController {
+    
     override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
         collectionViewLayout.invalidateLayout()
     }
@@ -19,44 +20,28 @@ class ListViewController: DatasourceController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBarItems()
-//        let listViewDatasource = ListDatasource()
-//        self.datasource = listViewDatasource
-        fetchHomeNeed()
-    }
-    
-    let tron = TRON(baseURL: WYYAPI.baseURL)
-    let str = "/login/cellphone?phone=15522010953&password=lovingBP"
-    
-    
-    class Home: JSONDecodable {
-        required init(json: JSON) throws {
-            print("Now ready to parse JSON/n", json)
+//        ModalTransitionMediator.instance.setListener(listener: self)
+        NotificationCenter.default.addObserver(self, selector: #selector(loadList), name: NSNotification.Name(rawValue: "load"), object: nil)
+
+        if Accounts.loginType == 1 {
+            Service.shareInstance.fetchListsNeed(uid: Accounts.userId) { (listDatasource) in
+                self.datasource = listDatasource
+                print(1)
+            }
         }
     }
-    
-    class JSONError: JSONDecodable {
-        required init(json: JSON) throws {
-            print("JSON ERROR!!")
+   
+    @objc func loadList(){
+        //load data here
+        if Accounts.loginType == 1 {
+            Service.shareInstance.fetchListsNeed(uid: Accounts.userId) { (listDatasource) in
+                self.datasource = listDatasource
+                //print(listDatasource, Accounts.userId)
+                print(2)
+                self.collectionView!.reloadData()
+            }
         }
     }
-    
-    fileprivate func fetchHomeNeed() {
-        let request: APIRequest<Home, JSONError> = tron.swiftyJSON.request("/login/cellphone?phone=15522010953&password=lovingBP")
-        print(str.urlDecoded())
-        print(NSURL(string: str))
-        
-        request.perform(withSuccess: { (home) in
-            print("Successfully fetch json")
-        }) { (err) in
-            
-            print("failed to fetch json\n", err)
-        }
-        
-        print(124)
-    }
-    
-    
-    
     
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: 56)
@@ -68,6 +53,15 @@ class ListViewController: DatasourceController {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
         return CGSize(width: view.frame.width, height: 80)
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        AlbumDetail.albumId = Playlist.playlists[indexPath.item].id
+        AlbumDetail.albumName = Playlist.playlists[indexPath.item].name
+        AlbumDetail.albumCoverImgUrl = Playlist.playlists[indexPath.item].coverImgUrl
+        
+        let songTableViewController = SongTableViewController()
+        self.navigationController?.pushViewController(songTableViewController, animated: true)
     }
     
     

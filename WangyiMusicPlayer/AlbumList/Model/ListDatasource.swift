@@ -7,9 +7,30 @@
 //
 
 import LBTAComponents
+import TRON
+import SwiftyJSON
 
-class ListDatasource: Datasource {
+class ListDatasource: Datasource, JSONDecodable {
     let word = ["Hello", "How", "Are"]
+
+    required init(json: JSON) throws {
+        let arrayPlaylist = json["playlist"].array
+        var playlists = [Playlist]()
+        
+        
+        for playlist in arrayPlaylist!  {
+            let name = playlist["name"].stringValue
+            let id = playlist["id"].stringValue
+            let trackCount = playlist["trackCount"].intValue
+            let coverImgUrl = playlist["coverImgUrl"].stringValue
+            
+            let list = Playlist(name: name, id: id, trackCount: trackCount, coverImgUrl: coverImgUrl)
+            
+            playlists.append(list)
+        }
+        Playlist.playlists = playlists
+    }
+    
     
     override func headerClasses() -> [DatasourceCell.Type]? {
         return [ListHeader.self]
@@ -24,11 +45,11 @@ class ListDatasource: Datasource {
     }
     
     override func item(_ indexPath: IndexPath) -> Any? {
-        return word[indexPath.item]
+        return Playlist.playlists[indexPath.item]
     }
     
     override func numberOfItems(_ section: Int) -> Int {
-        return word.count
+        return Playlist.playlists.count
     }
     
     override func numberOfSections() -> Int {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'ABA85CC2082EC6EF6F664F4AE804C67E'
-               BlueprintName = 'TRON'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'TRON.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "38B976054271FCF2F6E6430745E1E605"
+               BlueprintName = "TRON"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "TRON.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

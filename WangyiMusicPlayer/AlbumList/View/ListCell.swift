@@ -10,6 +10,25 @@ import LBTAComponents
 
 class ListCell: DatasourceCell {
     
+    override var datasourceItem: Any? {
+        didSet {
+            guard let playlist = datasourceItem as? Playlist else { return }
+            let name = playlist.name
+            let trackCount = "\(playlist.trackCount)"
+            
+            albumNameLabel.text = name
+            dowloadedNumLabel.text = "\(trackCount)首 已下载"
+            let url = URL(string: playlist.coverImgUrl)
+            let data = try? Data(contentsOf: url!)
+            
+            if let imageData = data {
+                let image = UIImage(data: imageData)
+                albumImgView.image = image
+            }
+            
+        }
+    }
+    
     let albumImgView: UIImageView = {
         let imgView = UIImageView()
         imgView.backgroundColor = .red
@@ -76,6 +95,6 @@ class ListFooter: DatasourceCell {
     override func setupViews() {
         super.setupViews()
         
-        backgroundColor = .blue
+        backgroundColor = .white
     }
 }

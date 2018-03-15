@@ -10,22 +10,37 @@
 		01A1E7E637D5FC8CD83D7EBC /* Pods_WangyiMusicPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AB4EB14F844F7742FAA440 /* Pods_WangyiMusicPlayer.framework */; };
 		53F3D7D578CF3D1DB01152FF /* Pods_WangyiMusicPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B37BBA85A49557443E90B8 /* Pods_WangyiMusicPlayerUITests.framework */; };
 		857D4083B563ADDA59BE3CF2 /* Pods_WangyiMusicPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14F8CE12D38884BE74E4384 /* Pods_WangyiMusicPlayerTests.framework */; };
+		B503A780204B16DA00EB0DA3 /* PlayerDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503A77F204B16DA00EB0DA3 /* PlayerDatasource.swift */; };
+		B503A795204C505100EB0DA3 /* PlayerViewControllerNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503A794204C505100EB0DA3 /* PlayerViewControllerNavBar.swift */; };
 		B52556C120309BF100630D70 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52556C020309BF100630D70 /* Extention.swift */; };
+		B536421A20490043002AD822 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536421920490043002AD822 /* SongCell.swift */; };
+		B536421C20490CE9002AD822 /* SongTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536421B20490CE9002AD822 /* SongTableHeader.swift */; };
+		B536421E2049C9BA002AD822 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536421D2049C9BA002AD822 /* Artist.swift */; };
+		B54B48E6205A545D000075CB /* LyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B48E5205A545D000075CB /* LyricViewController.swift */; };
+		B54B48E8205A5565000075CB /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B48E7205A5565000075CB /* Tools.swift */; };
 		B565A95A204056D700238BDD /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565A959204056D700238BDD /* SongTableViewController.swift */; };
+		B565A95C204158FE00238BDD /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565A95B204158FE00238BDD /* Playlist.swift */; };
+		B565A95E2041AD8800238BDD /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565A95D2041AD8800238BDD /* Accounts.swift */; };
+		B565A964204480A100238BDD /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565A963204480A100238BDD /* AlbumDetail.swift */; };
+		B565A9682044F28600238BDD /* SongTableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565A9672044F28600238BDD /* SongTableDatasource.swift */; };
+		B565A96A2044FA0300238BDD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B565A9692044FA0300238BDD /* Default-568h@2x.png */; };
+		B577A3D3204ECC1800C42BBE /* SetupPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577A3D2204ECC1800C42BBE /* SetupPlayerView.swift */; };
+		B577A3D6204ECE1900C42BBE /* buttonObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577A3D5204ECE1900C42BBE /* buttonObjc.swift */; };
 		B5C1396F2039E20400715BD8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1396E2039E20400715BD8 /* Service.swift */; };
-		B5C139722039E73200715BD8 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C139712039E73200715BD8 /* Account.swift */; };
 		B5C139772039E82900715BD8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C139762039E82900715BD8 /* ListViewController.swift */; };
 		B5C1397B2039E8A200715BD8 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1397A2039E8A200715BD8 /* ListCell.swift */; };
 		B5C13980203B026A00715BD8 /* ListDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1397F203B026A00715BD8 /* ListDatasource.swift */; };
 		B5C13982203B14A600715BD8 /* ListViewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C13981203B14A600715BD8 /* ListViewNavBar.swift */; };
-		B5CEB964203F05D700C646CB /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CEB963203F05D700C646CB /* PlayerViewController.swift */; };
+		B5D8FE822050E0BE006C59F8 /* PlayerViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8FE812050E0BE006C59F8 /* PlayerViewController02.swift */; };
+		B5D8FE8820513DFB006C59F8 /* Lyric.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8FE8720513DFB006C59F8 /* Lyric.swift */; };
 		B5E53089202D2E33004B491B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E53088202D2E33004B491B /* AppDelegate.swift */; };
 		B5E53090202D2E33004B491B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E5308F202D2E33004B491B /* Assets.xcassets */; };
 		B5E53093202D2E33004B491B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E53091202D2E33004B491B /* LaunchScreen.storyboard */; };
 		B5E5309E202D2E33004B491B /* WangyiMusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E5309D202D2E33004B491B /* WangyiMusicPlayerTests.swift */; };
 		B5E530A9202D2E33004B491B /* WangyiMusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E530A8202D2E33004B491B /* WangyiMusicPlayerUITests.swift */; };
-		B5E531D5202E91FF004B491B /* WYYAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E531D4202E91FF004B491B /* WYYAPI.swift */; };
 		B5E531D9203032C5004B491B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E531D8203032C5004B491B /* LoginViewController.swift */; };
+		B5E84B4D2051579F0066C319 /* SetupLyricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E84B4C2051579F0066C319 /* SetupLyricView.swift */; };
+		B5E84B50205160570066C319 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E84B4F205160570066C319 /* CommentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,16 +67,31 @@
 		729010B5A635A063897AD851 /* Pods-WangyiMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyiMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangyiMusicPlayer/Pods-WangyiMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		7B1E0785F5D3D83C16FA28D8 /* Pods-WangyiMusicPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyiMusicPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangyiMusicPlayerTests/Pods-WangyiMusicPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		B0A9D312F74E9BC8B314C59B /* Pods-WangyiMusicPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyiMusicPlayerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangyiMusicPlayerUITests/Pods-WangyiMusicPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B503A77F204B16DA00EB0DA3 /* PlayerDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDatasource.swift; sourceTree = "<group>"; };
+		B503A794204C505100EB0DA3 /* PlayerViewControllerNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewControllerNavBar.swift; sourceTree = "<group>"; };
 		B52556C020309BF100630D70 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		B536421920490043002AD822 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		B536421B20490CE9002AD822 /* SongTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableHeader.swift; sourceTree = "<group>"; };
+		B536421D2049C9BA002AD822 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		B54B48E5205A545D000075CB /* LyricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricViewController.swift; sourceTree = "<group>"; };
+		B54B48E7205A5565000075CB /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		B55F51EE204506A400DEF83A /* WangyiMusicPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WangyiMusicPlayer.entitlements; sourceTree = "<group>"; };
 		B565A959204056D700238BDD /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		B565A95B204158FE00238BDD /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		B565A95D2041AD8800238BDD /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		B565A963204480A100238BDD /* AlbumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetail.swift; sourceTree = "<group>"; };
+		B565A9672044F28600238BDD /* SongTableDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableDatasource.swift; sourceTree = "<group>"; };
+		B565A9692044FA0300238BDD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B577A3D2204ECC1800C42BBE /* SetupPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPlayerView.swift; sourceTree = "<group>"; };
+		B577A3D5204ECE1900C42BBE /* buttonObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonObjc.swift; sourceTree = "<group>"; };
 		B5C1396E2039E20400715BD8 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		B5C139712039E73200715BD8 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		B5C139762039E82900715BD8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		B5C1397A2039E8A200715BD8 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B5C1397F203B026A00715BD8 /* ListDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDatasource.swift; sourceTree = "<group>"; };
 		B5C13981203B14A600715BD8 /* ListViewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewNavBar.swift; sourceTree = "<group>"; };
-		B5C7A00D2033D198006F9F9A /* WangyiMusicPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WangyiMusicPlayer.entitlements; sourceTree = "<group>"; };
-		B5CEB963203F05D700C646CB /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		B5D8FDBD20504B77006C59F8 /* WangyiMusicPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WangyiMusicPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5D8FE812050E0BE006C59F8 /* PlayerViewController02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController02.swift; sourceTree = "<group>"; };
+		B5D8FE8720513DFB006C59F8 /* Lyric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyric.swift; sourceTree = "<group>"; };
 		B5E53085202D2E33004B491B /* WangyiMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangyiMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E53088202D2E33004B491B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E5308F202D2E33004B491B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,8 +103,9 @@
 		B5E530A4202D2E33004B491B /* WangyiMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangyiMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E530A8202D2E33004B491B /* WangyiMusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WangyiMusicPlayerUITests.swift; sourceTree = "<group>"; };
 		B5E530AA202D2E33004B491B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5E531D4202E91FF004B491B /* WYYAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYYAPI.swift; sourceTree = "<group>"; };
 		B5E531D8203032C5004B491B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B5E84B4C2051579F0066C319 /* SetupLyricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupLyricView.swift; sourceTree = "<group>"; };
+		B5E84B4F205160570066C319 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		CAD3D591E6B7363F85E6D6FA /* Pods-WangyiMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyiMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangyiMusicPlayer/Pods-WangyiMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		E14F8CE12D38884BE74E4384 /* Pods_WangyiMusicPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WangyiMusicPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B37BBA85A49557443E90B8 /* Pods_WangyiMusicPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WangyiMusicPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +149,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B536421820490032002AD822 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B536421920490043002AD822 /* SongCell.swift */,
+				B536421B20490CE9002AD822 /* SongTableHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B565A9652044F1F200238BDD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B565A959204056D700238BDD /* SongTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B565A9662044F20200238BDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B565A963204480A100238BDD /* AlbumDetail.swift */,
+				B565A9672044F28600238BDD /* SongTableDatasource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B577A3D4204ECC2200C42BBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B577A3D2204ECC1800C42BBE /* SetupPlayerView.swift */,
+				B577A3D5204ECE1900C42BBE /* buttonObjc.swift */,
+				B503A794204C505100EB0DA3 /* PlayerViewControllerNavBar.swift */,
+				B5D8FE812050E0BE006C59F8 /* PlayerViewController02.swift */,
+				B5E84B4C2051579F0066C319 /* SetupLyricView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B5C139702039E6AF00715BD8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B5C139712039E73200715BD8 /* Account.swift */,
+				B565A95D2041AD8800238BDD /* Accounts.swift */,
+				B536421D2049C9BA002AD822 /* Artist.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				B5C1397F203B026A00715BD8 /* ListDatasource.swift */,
+				B565A95B204158FE00238BDD /* Playlist.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,7 +235,9 @@
 		B5C13983203B266900715BD8 /* SongTable */ = {
 			isa = PBXGroup;
 			children = (
-				B565A959204056D700238BDD /* SongTableViewController.swift */,
+				B536421820490032002AD822 /* View */,
+				B565A9662044F20200238BDD /* Model */,
+				B565A9652044F1F200238BDD /* Controller */,
 			);
 			path = SongTable;
 			sourceTree = "<group>";
@@ -172,15 +245,45 @@
 		B5CEB962203F05C000C646CB /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				B5CEB963203F05D700C646CB /* PlayerViewController.swift */,
+				B5D8FE8420513CBC006C59F8 /* Play */,
+				B5D8FE8320513CAD006C59F8 /* Lyric */,
 			);
 			path = Player;
+			sourceTree = "<group>";
+		};
+		B5D8FDC120504BC5006C59F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B503A77F204B16DA00EB0DA3 /* PlayerDatasource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5D8FE8320513CAD006C59F8 /* Lyric */ = {
+			isa = PBXGroup;
+			children = (
+				B5D8FE8720513DFB006C59F8 /* Lyric.swift */,
+				B54B48E7205A5565000075CB /* Tools.swift */,
+				B54B48E5205A545D000075CB /* LyricViewController.swift */,
+			);
+			path = Lyric;
+			sourceTree = "<group>";
+		};
+		B5D8FE8420513CBC006C59F8 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				B5D8FDC120504BC5006C59F8 /* Model */,
+				B577A3D4204ECC2200C42BBE /* Controller */,
+			);
+			path = Play;
 			sourceTree = "<group>";
 		};
 		B5E5307C202D2E33004B491B = {
 			isa = PBXGroup;
 			children = (
-				B5CEB962203F05C000C646CB /* Player */,
+				B565A9692044FA0300238BDD /* Default-568h@2x.png */,
+				B52556C020309BF100630D70 /* Extention.swift */,
+				B5E531D720303099004B491B /* Main */,
 				B5E53087202D2E33004B491B /* WangyiMusicPlayer */,
 				B5E5309C202D2E33004B491B /* WangyiMusicPlayerTests */,
 				B5E530A7202D2E33004B491B /* WangyiMusicPlayerUITests */,
@@ -203,14 +306,14 @@
 		B5E53087202D2E33004B491B /* WangyiMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				B5C13983203B266900715BD8 /* SongTable */,
-				B5C7A00D2033D198006F9F9A /* WangyiMusicPlayer.entitlements */,
+				B55F51EE204506A400DEF83A /* WangyiMusicPlayer.entitlements */,
 				B5E53094202D2E33004B491B /* Info.plist */,
-				B52556C020309BF100630D70 /* Extention.swift */,
-				B5E531D720303099004B491B /* Main */,
+				B5E84B4E2051604C0066C319 /* Comment */,
+				B5CEB962203F05C000C646CB /* Player */,
+				B5C13983203B266900715BD8 /* SongTable */,
+				B5E531D620302D41004B491B /* Login */,
 				B5C139752039E80500715BD8 /* AlbumList */,
 				B5C139702039E6AF00715BD8 /* Model */,
-				B5E531D620302D41004B491B /* Login */,
 				B5E531D3202E91CD004B491B /* Network */,
 			);
 			path = WangyiMusicPlayer;
@@ -237,7 +340,6 @@
 		B5E531D3202E91CD004B491B /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				B5E531D4202E91FF004B491B /* WYYAPI.swift */,
 				B5C1396E2039E20400715BD8 /* Service.swift */,
 			);
 			path = Network;
@@ -257,8 +359,17 @@
 				B5E53088202D2E33004B491B /* AppDelegate.swift */,
 				B5E53091202D2E33004B491B /* LaunchScreen.storyboard */,
 				B5E5308F202D2E33004B491B /* Assets.xcassets */,
+				B5D8FDBD20504B77006C59F8 /* WangyiMusicPlayer-Bridging-Header.h */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B5E84B4E2051604C0066C319 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				B5E84B4F205160570066C319 /* CommentViewController.swift */,
+			);
+			path = Comment;
 			sourceTree = "<group>";
 		};
 		E4EC3CD24B793A5A29E870F5 /* Pods */ = {
@@ -351,8 +462,12 @@
 				TargetAttributes = {
 					B5E53084202D2E33004B491B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Siri = {
 								enabled = 1;
 							};
@@ -397,6 +512,7 @@
 			files = (
 				B5E53093202D2E33004B491B /* LaunchScreen.storyboard in Resources */,
 				B5E53090202D2E33004B491B /* Assets.xcassets in Resources */,
+				B565A96A2044FA0300238BDD /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,8 +601,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WangyiMusicPlayer/Pods-WangyiMusicPlayer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKitUI.framework",
 				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PandoraPlayer/PandoraPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
@@ -494,8 +613,11 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PandoraPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
@@ -581,18 +703,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B577A3D6204ECE1900C42BBE /* buttonObjc.swift in Sources */,
+				B536421A20490043002AD822 /* SongCell.swift in Sources */,
 				B5E531D9203032C5004B491B /* LoginViewController.swift in Sources */,
-				B5E531D5202E91FF004B491B /* WYYAPI.swift in Sources */,
+				B5D8FE822050E0BE006C59F8 /* PlayerViewController02.swift in Sources */,
+				B503A795204C505100EB0DA3 /* PlayerViewControllerNavBar.swift in Sources */,
+				B54B48E6205A545D000075CB /* LyricViewController.swift in Sources */,
+				B536421C20490CE9002AD822 /* SongTableHeader.swift in Sources */,
+				B5E84B50205160570066C319 /* CommentViewController.swift in Sources */,
+				B5D8FE8820513DFB006C59F8 /* Lyric.swift in Sources */,
+				B565A95C204158FE00238BDD /* Playlist.swift in Sources */,
+				B5E84B4D2051579F0066C319 /* SetupLyricView.swift in Sources */,
+				B577A3D3204ECC1800C42BBE /* SetupPlayerView.swift in Sources */,
 				B5C13982203B14A600715BD8 /* ListViewNavBar.swift in Sources */,
+				B54B48E8205A5565000075CB /* Tools.swift in Sources */,
 				B5E53089202D2E33004B491B /* AppDelegate.swift in Sources */,
+				B565A964204480A100238BDD /* AlbumDetail.swift in Sources */,
 				B52556C120309BF100630D70 /* Extention.swift in Sources */,
+				B565A9682044F28600238BDD /* SongTableDatasource.swift in Sources */,
 				B5C1396F2039E20400715BD8 /* Service.swift in Sources */,
 				B5C1397B2039E8A200715BD8 /* ListCell.swift in Sources */,
+				B503A780204B16DA00EB0DA3 /* PlayerDatasource.swift in Sources */,
+				B536421E2049C9BA002AD822 /* Artist.swift in Sources */,
 				B565A95A204056D700238BDD /* SongTableViewController.swift in Sources */,
 				B5C139772039E82900715BD8 /* ListViewController.swift in Sources */,
 				B5C13980203B026A00715BD8 /* ListDatasource.swift in Sources */,
-				B5CEB964203F05D700C646CB /* PlayerViewController.swift in Sources */,
-				B5C139722039E73200715BD8 /* Account.swift in Sources */,
+				B565A95E2041AD8800238BDD /* Accounts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -751,6 +887,7 @@
 			baseConfigurationReference = 729010B5A635A063897AD851 /* Pods-WangyiMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WangyiMusicPlayer/WangyiMusicPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NY4MFTY8NN;
@@ -758,6 +895,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thinker.WangyiMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Main/WangyiMusicPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -768,6 +907,7 @@
 			baseConfigurationReference = CAD3D591E6B7363F85E6D6FA /* Pods-WangyiMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WangyiMusicPlayer/WangyiMusicPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NY4MFTY8NN;
@@ -775,6 +915,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thinker.WangyiMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Main/WangyiMusicPlayer-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
